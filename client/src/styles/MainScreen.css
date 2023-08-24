@@ -1,0 +1,39 @@
+/* MainScreen.css */
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.mainscreen-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1f1f1f;
+    padding: 15px;
+}
+
+.sidebar button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar button:hover {
+    background-color: #444;
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+    background-color: #121212;
+}

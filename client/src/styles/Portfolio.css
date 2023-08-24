@@ -1,0 +1,61 @@
+/* Main Portfolio Container */
+.container {
+    background-color: #121212;
+    height: 100vh;
+    padding: 2rem;
+    color: #ffffff;
+}
+
+/* Widget Styling */
+.widget {
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.portfolio-title {
+    margin-left: -15px;
+}
+
+/* Header Widget */
+.header-widget {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-widget h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header-widget p {
+    font-size: 1rem;
+}
+
+/* Chart Widget */
+.chart-widget {
+    height: 300px; /* Placeholder height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Recent Purchases Widget */
+.recent-purchases-widget table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recent-purchases-widget td,
+.recent-purchases-widget th {
+    border: 1px solid #444;
+    padding: 0.5rem;
+}
+
+/* Gainers & Losers Widget */
+.gainers-losers-widget {
+    display: flex;
+    justify-content: space-between;
+}
